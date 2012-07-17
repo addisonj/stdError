@@ -1,2 +1,2 @@
 stdError = require('./lib/stdError')
-modules.exports = stdError
+module.exports = stdError

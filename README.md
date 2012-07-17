@@ -10,4 +10,9 @@ At i.TV, we tend to do error handling from the server lots of different ways, he
 ```
 stdError = require("stdError")
 app.use(stdError())
+
+
+app.get("/error", function(req, res) {
+  res.sendErr(new Error("ahhhhh!"))
+})
 ```
