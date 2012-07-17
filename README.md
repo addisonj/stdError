@@ -9,5 +9,5 @@ At i.TV, we tend to do error handling from the server lots of different ways, he
 # Usage
 ```
 stdError = require("stdError")
-app.use(stdError)
+app.use(stdError())
 ```
