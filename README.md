@@ -8,7 +8,7 @@ At i.TV, we tend to do error handling from the server lots of different ways, he
 
 # Usage
 ```
-stdError = require("stdError")
+stdError = require("std-error")
 app.use(stdError({name: "MyApp", showStack: false}))
 
 
