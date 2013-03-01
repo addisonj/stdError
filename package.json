@@ -1,6 +1,6 @@
 {
   "name": "std-error",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A small express middleware for standardizing on error handling",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,5 @@
     "middleware"
   ],
   "author": "Addison Higham",
-  "license": "BSD"
+  "license": "MIT"
 }
