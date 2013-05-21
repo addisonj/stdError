@@ -24,6 +24,10 @@ app.error(e.defaultHandler) // express 2.0
 
 e.register({type: "MyError", message: "Something bad happened", statusCode: 9000})
 
+// Register custom error with a custom errorCode
+
+e.register({type: "MyErrorWithErrorCode", message: "Something bad happened", statusCode: 500, errorCode: 1000})
+
 return next(new e.MyError())
 
 // change default status codes
