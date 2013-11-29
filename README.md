@@ -17,7 +17,7 @@ app.use(function(err, req, res next) {
 })
 
 // or, which is the the same as above (works for express 2.0 and 3.0)
-app.use(e.deafultHandler) //express 3.0
+app.use(e.defaultHandler) //express 3.0
 app.error(e.defaultHandler) // express 2.0
 
 // Register custom errors
