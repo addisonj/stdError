@@ -1,2 +1,1 @@
-stdError = require('./lib/stdError')
-module.exports = stdError
+module.exports = require('./lib/stdError')
